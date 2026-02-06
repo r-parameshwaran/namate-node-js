@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>EP 4 - Module export and require</h1>
+    <section>
+      <h2>require</h2>
+      <p>
+        We can require a module using require function. Require function is
+        available in node js anywhere.
+        <strong>
+          Module protects thier variables and functions by default. We can
+          export and import using the module variables and functions.
+        </strong>
+        We don't have to write file extension manually if the file is
+        Javascript. There are two types of modules are followed.
+      </p>
+      <ol>
+        <li>Common JS Module</li>
+        <li>EJS Module</li>
+      </ol>
+      <p>By default cjs is used in Node js</p>
+      <h2>Common JS Module</h2>
+      <p>
+        We can use module.exports and require to export and import the variables
+        and functions. This is older way of exporting and importing it. It is
+        imported in synchronous way. Run in non strict mode.
+      </p>
+      <h2>ES Modules</h2>
+      <p>
+        Uses export and import syntax. Newer way of exporting and importing
+        syntax and by default used by frameworks like React and Angular. It is
+        imported in asynchronous way. Run in strict mode.
+      </p>
+    </section>
+    <h3>Grouping module with related files</h3>
+    <section>
+      <p>
+        We can group set of related files like sum, multiply into a folder as a
+        module by having index file. We can import and export in index file and
+        we don't even have to include index while requiring it. By default it
+        will look into index.js file
+      </p>
+      <p>
+        For json files we can directly require it. module.exports are not
+        needed. Also node js provide many default built in modules.
+        <strong
+          >Module is basically a collection of javascript code which is private
+          to itself. It exists seperately.</strong
+        >
+      </p>
+    </section>
+  </body>
+</html>

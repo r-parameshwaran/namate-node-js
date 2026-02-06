@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>EP 5 - Diving deep into the node js github repo</h1>
+    <section>
+      <p>
+        <strong>
+          In node js whenever we create a new module, all the code that we write
+          inside the module is wrapped inside a function then executed when we
+          call require.
+        </strong>
+        Variables and functions are private in modules because it is wrapped
+        inside IFFE.
+      </p>
+      <img
+        src="../../assests/season1/ep 5 - Dive deep into node js github 1.PNG"
+        alt=""
+        width="1284"
+      />
+      <h4>5 step mechanism of require</h4>
+      <ol>
+        <li>
+          <h5>Resolving the module</h5>
+          <p>
+            It checks wheather the file is local path, json path or node path
+          </p>
+        </li>
+        <li>
+          <h5>Loading the module</h5>
+          <p>File context loaded according to the file type</p>
+        </li>
+        <li>
+          <h5>Compiling phase. Wraps inside an IFFE</h5>
+        </li>
+        <li>
+          <h5>Code evaluation</h5>
+          <p>module.export happens and value is returned</p>
+        </li>
+        <li>
+          <h5>Caching the module</h5>
+        </li>
+      </ol>
+      <p>We can get __dirname, __filename to get the file path and directory</p>
+    </section>
+  </body>
+</html>
