@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Dive deep into v8 JS engine</h1>
+    <section>
+      Whenever we pass any code to JS engine it goes through the parsing state.
+      <ol>
+        <li>
+          <h3>Lexical analysis (Tokenization)</h3>
+          <p>The code is broken down into tokens</p>
+        </li>
+        <li>
+          <h3>Syntax analysis</h3>
+          <p>
+            The syntax analysis of tokens happen and the tokens are converted
+            into AST. (Abstract syntax tree)
+          </p>
+        </li>
+      </ol>
+    </section>
+    <section>
+      <h2>Interpreter vs Compiler</h2>
+      <h3>Interpreter</h3>
+      <ol>
+        <li>runs line by line</li>
+        <li>Fast initial execution</li>
+        <li>Interpretter</li>
+      </ol>
+      <h3>Compiler</h3>
+      <ol>
+        <li>First compilation. High level language code => Machine code</li>
+        <li>Intially heavy. But executed first.</li>
+        <li>Compiler</li>
+      </ol>
+    </section>
+    <section>
+      <h3>Javascript</h3>
+      <section>
+        <strong
+          >Javascript user interpretter also a complier. Javascript uses a
+          mechanism like JIT (Just in Time)</strong
+        >
+        <img
+          src="../../assests/season1/ep 8 - Dive deep into v8 engine.PNG"
+          alt=""
+          width="1284"
+        />
+      </section>
+    </section>
+  </body>
+</html>

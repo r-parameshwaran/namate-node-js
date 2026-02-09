@@ -1,0 +1,24 @@
+{
+  "name": "namaste-node",
+  "version": "1.0.0",
+  "description": "namsate node js course learning",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-parameshwaran/namate-node-js.git"
+  },
+  "author": "R Parameshwaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-parameshwaran/namate-node-js/issues"
+  },
+  "homepage": "https://github.com/r-parameshwaran/namate-node-js#readme",
+  "dependencies": {
+    "mongodb": "^7.1.0"
+  }
+}

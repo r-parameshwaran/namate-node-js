@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Creating a server</h1>
+    <section>
+      <img
+        src="../../assests/season1/EP 11 - Creating a server.PNG"
+        alt=""
+        width="1284"
+      />
+      <pre>
+const http = require("http");
+const server = http.createServer(function (req, res) {
+  if (req.url === "/getSecretData") {
+    res.end("There is no secret data");
+  } else res.end("Hello world");
+});
+server.listen(7777);
+      </pre>
+    </section>
+  </body>
+</html>
