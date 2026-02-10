@@ -9,3 +9,4 @@
 9. Check libuv and thread pool again
 10. Watch EP 11 creating a server in theory
 11. Watch EP 12 Databases SQL vs no SQL again
+12. Season 2 - EP 1, EP2 watch again
