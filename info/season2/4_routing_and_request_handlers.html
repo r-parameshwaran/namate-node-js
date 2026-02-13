@@ -7,5 +7,27 @@
   </head>
   <body>
     <h1>Routing and Request handlers</h1>
+    <section>
+      <p>app.use("/") => Matches all the routes</p>
+      <p>app.use("/hello") => Matches all the routes that has hello</p>
+      <p>app.use("/test") => Matches all the routes that has test</p>
+      <p>
+        <strong
+          >When we use app.use it handles all type of http methods like
+          get,post,delete</strong
+        >
+      </p>
+      <p>
+        <strong
+          >Hello and test has to be exactly same. Also the order matters. If any
+          matching route comes before only it will work. Whenever a request
+          comes it matches from the top</strong
+        >
+      </p>
+      <ol>
+        <li>Reading query params: <strong>req.query.params</strong></li>
+        <li>Reading dynamic routes: <strong>req.params</strong></li>
+      </ol>
+    </section>
   </body>
 </html>

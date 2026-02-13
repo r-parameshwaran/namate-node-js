@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/r-parameshwaran/namate-node-js#readme",
   "dependencies": {
-    "mongodb": "^7.1.0"
+    "mongodb": "^7.1.0",
+    "mongoose": "^9.2.0"
   }
 }
